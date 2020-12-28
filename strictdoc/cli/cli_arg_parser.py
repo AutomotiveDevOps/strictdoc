@@ -42,7 +42,7 @@ def cli_args_parser():
     command_parser_export.add_argument('--formats',
                                        type=str,
                                        nargs='+',
-                                       choices=['html', 'rst'],
+                                       choices=['html', 'rst', 'excel'],
                                        default=['html'],
                                        help='Export formats')
     command_parser_export.add_argument('--no-parallelization',
